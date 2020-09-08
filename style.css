@@ -1,0 +1,638 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;515;600;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+  font-family: "Quicksand", sans-serif;
+}
+p,
+input,
+span,
+button {
+  font-family: "Roboto", sans-serif;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/* header part start */
+
+.header {
+  width: 100%;
+}
+.logo {
+  margin: 20px;
+}
+.logo img {
+  vertical-align: middle;
+}
+.logo span {
+  color: #1c1e2e;
+  font-size: 1.5rem;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+/* header part end banner start */
+.banner {
+  width: 100%;
+  display: flow-root;
+  margin-bottom: 60px;
+}
+
+.bannerbody {
+  width: 100%;
+  float: left;
+}
+
+.bannerleft {
+  width: 60%;
+  float: left;
+}
+
+.bannerright {
+  width: 40%;
+  float: right;
+}
+
+.leftcontent {
+  /* padding:60px 16px; */
+  padding: 60px 53px 60px 24px;
+  padding: 60px 90px 60px 24px;
+}
+.leftcontent h1 {
+  font-size: 44px;
+  font-weight: bold;
+
+  color: #1c1e2e;
+}
+.leftcontent p {
+  font-size: 22px;
+  color: #4c527d;
+  margin: 20px 0;
+}
+.bannerbutton {
+  margin: 25px 0;
+}
+.leftcontent .bannerbutton button {
+  padding: 15px 35px;
+  padding: 0.875rem 2.5rem;
+  outline: none;
+  border: none;
+  border-radius: 32px;
+  border: 2px solid #ed6524;
+
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.leftcontent .bannerbutton .lb {
+  background: #ed6524;
+  color: white;
+}
+
+.leftcontent .bannerbutton .lb:hover {
+  cursor: pointer;
+}
+
+.leftcontent .bannerbutton .rb {
+  background: transparent;
+  color: #ed6524;
+  margin-left: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+.leftcontent .bannerbutton .rb:hover {
+  background: #ed6524;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+/* button end in banner gallery */
+
+.comment {
+  margin: 50px 50px 0 0;
+}
+
+.commentbox {
+  width: 100%;
+  padding: 20px 30px;
+
+  background: #f6f8fc;
+  border-left: 4px solid #f5a782;
+}
+
+.commentbox p {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.commentuser {
+  width: 100%;
+  float: left;
+  margin: 40px 0 0 20px;
+}
+.userleft {
+  width: 20%;
+  float: left;
+}
+.userright {
+  width: 80%;
+  float: right;
+}
+.userdesc {
+  padding: 15px 0px;
+}
+
+.userdesc p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  color: #4c527d;
+  color: #6f75a7;
+  line-height: 23px;
+}
+/* usercomment section end and bannerright new release loog start */
+.rightcontent {
+  position: relative;
+  display: flow-root;
+}
+
+.bookcircle {
+  width: 120px;
+  height: 120px;
+  background: #5cb377;
+  border-radius: 50%;
+
+  position: absolute;
+  top: -30px;
+  right: 0;
+}
+
+.bookcircle h3 {
+  text-align: center;
+  color: #fff;
+  padding-top: 30px;
+}
+.booklink {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.booklink a {
+  color: #ed6524;
+  text-decoration: underline;
+  font-size: 18px;
+}
+/* banner part end with booklink */
+/* service sectio  */
+
+.service {
+  width: 100%;
+  display: flow-root;
+  background-image: linear-gradient(to bottom, #f6f8fc 0%, #fff 70%);
+  background-image: linear-gradient(to bottom, #f6f8fc 0%, #fff 70%);
+  background-repeat: repeat-x;
+  padding: 90px 0;
+}
+
+.servicetitle {
+  text-align: center;
+}
+
+.servicetitle h1 {
+  font-size: 44px;
+  margin-bottom: 20px;
+}
+
+.servicetitle p {
+  color: #4c527d;
+  font-size: 22px;
+  font-size: 1.125rem;
+  /* margin: auto;
+  width:58%; */
+}
+
+.servicegallary {
+  margin-top: 80px;
+  width: 100%;
+  float: left;
+}
+
+.item {
+  width: 33%;
+  float: left;
+}
+
+.itemdesc {
+  text-align: center;
+  padding: 42px;
+}
+.itemdesc i {
+  font-size: 40px;
+  color: #ed6524;
+}
+.itemdesc h3 {
+  margin: 15px 0;
+}
+
+/* service section end */
+/* include section start */
+
+.include {
+  width: 100%;
+  display: flow-root;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.includetitle h1 {
+  font-size: 44px;
+  margin-bottom: 20px;
+}
+/* .includeleft{
+  margin-top: 25px;
+} */
+
+.includedetails {
+  width: 100%;
+  float: left;
+}
+
+.includeleft {
+  width: 50%;
+  float: left;
+}
+.includeright {
+  width: 50%;
+  float: left;
+}
+
+.includeright .fa-check-circle {
+  color: #7fcdb8;
+}
+
+.includeleft img {
+  padding: 30px;
+  margin-left: 150px;
+}
+.includeright .list {
+  padding: 30px;
+  padding-right: 150px;
+  color: #4c527d;
+}
+.includeright i {
+  height: 30px;
+  width: 15px;
+  text-align: center;
+  line-height: 20px;
+
+  border-radius: 100%;
+
+  margin-right: 10px;
+}
+
+.includeright ul li {
+  line-height: 36px;
+  font-size: 20px;
+}
+
+.listbutton button {
+  margin-top: 20px;
+  padding: 15px 20px;
+
+  outline: none;
+  border: none;
+  border-radius: 32px;
+  font-size: 18px;
+  font-weight: 600;
+  background: #ed6524;
+  color: white;
+}
+
+/* bookitemicon list: */
+.bookitem {
+  width: 100%;
+  display: flow-root;
+  background-image: linear-gradient(to bottom, #f6f8fc 0%, #fff 70%);
+  background-image: linear-gradient(to bottom, #f6f8fc 0%, #fff 70%);
+  background-repeat: repeat-x;
+  padding: 90px 0;
+}
+.itemdescp {
+  text-align: center;
+}
+
+.itemdescp h1 {
+  font-size: 44px;
+  margin-bottom: 20px;
+}
+
+.itemdescp p {
+  color: #4c527d;
+  font-size: 22px;
+
+  /* margin: auto;
+  width:58%; */
+}
+
+.bookitemlist .fa-user-plus {
+  color: #7fcdb8;
+  margin-top: 40px;
+  font-size: 30px;
+  margin-right: 20px;
+  /* margin-right: 120px; */
+}
+
+.icon li span {
+  font-family: "Quicksand", sans-serif;
+  color: #1c1e2e;
+  font-weight: bold;
+  margin-right: 200px;
+}
+
+.icon p {
+  margin-left: 400px;
+  text-align: center;
+  margin-right: 230px;
+  font-size: 18px;
+}
+
+/* book item list icon section end */
+
+/* email subcripiton section: */
+
+.mail {
+  width: 100%;
+  text-align: center;
+  background: #f6f8fc;
+}
+.mailtitle h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.maildesc {
+  font-size: 16px;
+  color: #4c527d;
+  line-height: 20px;
+}
+
+.mailform form {
+  margin-top: 20px;
+}
+
+.mailform form input {
+  padding-left: 200px;
+  height: 60px;
+  outline: none;
+  border: 1px solid #ced0e1;
+  color: #4c527d;
+  border-radius: 5px;
+  display: inline;
+  font-size: 18px;
+}
+
+.mailform form button {
+  height: 60px;
+  padding-left: 60px;
+  border: 1px solid #ed6524;
+  color: white;
+  border-radius: 5px;
+  background: #ed6524;
+  outline: none;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+/* mail end review start */
+.review {
+  width: 100%;
+
+  text-align: center;
+}
+
+.reviewhead {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+.reviewp {
+  font-size: 20px;
+  /* background-color: ; */
+  color: #6f75a7;
+}
+
+.bookreviews {
+  width: 100%;
+}
+
+.booksreviews {
+  width: 100%;
+}
+
+.booksreviewsbody {
+  margin-top: 80px;
+  width: 100%;
+  float: left;
+}
+
+.booksitem {
+  width: 30%;
+  float: left;
+  background: #4c527d;
+  background: #f6f8fc;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.booksitemdesc {
+  text-align: center;
+  padding: 42px;
+}
+.booksitemdesc i {
+  font-size: 40px;
+  color: #ed6524;
+}
+
+.booksitemdesc p {
+  margin: 15px 0;
+  font-style: italic;
+  color: #4c527d;
+}
+
+.booksreviews .images {
+  margin-right: 20px;
+}
+
+.bookcommentuser {
+  width: 100%;
+  float: left;
+  margin: 40px 0 0 20px;
+}
+.bookuserleft {
+  width: 20%;
+  float: left;
+}
+.bookuserright {
+  width: 80%;
+  float: right;
+}
+.bookuserdesc {
+  padding: 15px 0px;
+}
+
+.bookuserdesc p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+
+  color: #6f75a7;
+  line-height: 23px;
+}
+
+.booksreviewspart {
+  width: 100%;
+}
+
+.booksreviewspart .bookcommentuser {
+  width: 100%;
+  float: left;
+}
+
+.booksreviewspart .bookuserleft {
+  width: 20%;
+  float: left;
+}
+
+.booksreviewspart .bookuseright {
+  width: 80%;
+  float: left;
+}
+
+.booksreviewspart .booksitem {
+  width: 30%;
+  float: left;
+  background: #4c527d;
+  background: #f6f8fc;
+  margin-left: 200px;
+  margin-bottom: 30px;
+}
+
+.copybutton {
+  width: 100%;
+  text-align: center;
+  margin-right: 1000px;
+  display: flow-root;
+}
+
+.copybutton button {
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 50px;
+  text-transform: capitalize;
+}
+
+button {
+  padding: 15px 35px;
+  font-size: 20px;
+  background: #ed6524;
+  border: 1px solid gainsboro;
+  color: white;
+  outline: none;
+}
+
+.author {
+  width: 100%;
+  display: flow-root;
+}
+
+.authorbody {
+  text-align: center;
+  background: #ed6524;
+}
+.authorimg img {
+  margin-top: 80px;
+}
+
+.authortitle h1 {
+  color: white;
+  font-size: 44px;
+  margin-top: 40px;
+}
+
+.authordecs p {
+  text-align: justify;
+  margin-left: 300px;
+  margin-right: 200px;
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+  line-height: 25px;
+}
+
+.authordecs a{
+  color:white;
+  text-decoration: underline;
+}
+
+ .followauthortitle h1{
+  text-align: center;
+    color: #fff;
+   
+    font-size: 22px;
+
+} 
+
+.authoricon{
+  background: rgba(0,0,0,0.1);
+    width: 36px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    padding-top: 7px;
+    color:white;
+    font-size:22px;
+    margin:15px 0;
+    margin-left:10px;
+    margin-bottom: 50px;
+
+
+}
+
+
+.lastpart{
+  margin-top:50px;
+  margin-bottom:50px;
+}
+.lastpart p{
+  text-align: center;
+  color: #4c527d;
+}
+
+.lastpart .fa-heart{
+  color:#ed6524;
+}
+
+.lastpart a{
+  text-decoration: underline;
+}
